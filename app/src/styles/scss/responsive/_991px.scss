@@ -1,0 +1,85 @@
+@media screen and (max-width: 991px){
+  .content{
+    flex-wrap: wrap;
+    .sub-side{
+      width: 100%;
+      margin:0px;
+
+      .content-mailbox{
+        // border:thin black solid;
+        .chevron-left{
+          margin: 10px 0 10px 20px;
+        }
+        .txt-mail{
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .contact{
+      width: 30%;
+      // border-top-right-radius: 0px;
+      // border-bottom-right-radius: 0px;
+    }
+
+    .main-content{
+      width: 70%;
+      
+      border: thin $greyBorder solid;
+      border-radius: 20px;
+      border-left: 0px;
+      // border-bottom-left-radius: 0px;
+
+    
+    }
+  }
+
+  .mailbox-991{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .box {
+      width: 65px;
+      margin: 1% 0 0 0;
+      height: 35px; 
+
+      i {
+        color: white;
+        font-size: 20px;
+      }
+  
+      p {
+        display: none;
+      }
+  
+    }
+
+    .inbox{
+      padding-top: 2%;
+      margin-bottom: 0px;
+      .item-box3{
+        p{
+          margin-left: 30%;
+        }
+      }
+    }
+  }
+
+  .label-991{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .labels{
+      
+      margin-top: 15px;
+      // border: thin black solid;
+    }
+
+    .tag-labels{
+      margin-bottom: 0px;
+      margin-top: 20px;
+    }
+  }
+}

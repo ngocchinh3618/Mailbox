@@ -1,0 +1,17 @@
+// @import "main";
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Sofia Pro Light";
+	margin:0;
+	padding: 0;
+	font-size: 0.9rem;
+}
+
+.container {
+	display: flex;
+}

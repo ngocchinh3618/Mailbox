@@ -1,0 +1,149 @@
+.content {
+	width: 95%;
+	display: flex;
+	box-shadow: -4px 0 5px -5px $greyBorder;
+	border-radius: 20px;
+	min-height: 700px;
+	background-color: white;
+}
+
+.sub-side {
+	width: 350px;
+	// border: thin yellow solid;
+	// min-height: 700px;	
+	margin: 30px 15px;
+
+	.content-mailbox {
+		// border-bottom: thin $greyBorder solid;
+		height: 77px;
+		display: flex;
+
+		.chevron-left {
+			p {
+				text-decoration: none;
+				background-color: #f4f5f6;
+				text-align: center;
+				border-radius: 12px;
+				padding-top: 8px;
+				height: 40px;
+				width: 40px;
+
+				.svg-left {
+					// border: thin black solid;
+					fill: #a6adb7;
+					text-align: center;
+				}
+			}
+		}
+
+		.txt-mail {
+			height: 30px;
+
+			// border: thin black solid;
+			p {
+				margin: 12px 0 0 18px;
+				font-size: 27px;
+				font-weight: 600;
+				// font-family:;
+			}
+		}
+	}
+
+	// 
+	.box {
+		margin: 20px 0 45px 0;
+		display: flex;
+		border-radius: 10px;
+		background-color: #00A489;
+		align-items: center;
+
+		p {
+			margin: 13px 0px 13px 18px;
+			color: white;
+			height: 19px;
+
+			.mail-icon {
+				margin-top: -2px;
+				fill: white;
+				font-size: 20px;
+
+			}
+
+		}
+
+	}
+
+
+	.inbox {
+		display: flex;
+		margin-bottom: 25px;
+
+		.item-box1 {
+			margin-left: 12px;
+
+			.list-icon {
+				font-size: 22px;
+				fill: #a6adb7;
+				width: 25px;
+				text-align: center;
+
+				.top-icon	{
+					fill:#9da5b0;
+				}
+				.bottom-icon{
+					fill:#bec4cd;
+				}
+			}
+
+		}
+
+		.item-box2 {
+			width: 60%;
+			height: 30px;
+			margin-left: 18px;
+			font-weight: 600;
+			font-size: 15px;
+
+		}
+
+		.item-box3 {
+			text-align: center;
+
+			p {
+				margin: 0;
+				padding: 0;
+				width: 27px;
+				height: 25px;
+				line-height: 25px;
+				color: white;
+				background-color: $greenNb;
+				border-radius: 10px;
+			}
+
+		}
+	}
+
+	.inbox:hover {
+		color: $greenNb;
+
+		.list-icon {
+			fill: $greenNb;
+			.top-icon	{
+				fill: $greenNb;
+			}
+			.bottom-icon{
+				fill: $greenNb;
+			}
+		}
+	}
+
+	// .inbox:active {
+	// 	color: $greenNb;
+
+	// 	i {
+	// 		color: #2bb29d;
+	// 	}
+	// }
+
+
+}
