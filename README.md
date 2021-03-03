@@ -1,4 +1,5 @@
 # Install project
+npm add yarn
 yarn
 
 # Watch sass file
