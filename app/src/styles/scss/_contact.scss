@@ -2,23 +2,24 @@
 
 .contact {
   width: 500px;
-  margin: 17px 0;
+  margin: 20px 0;
   border-radius: 20px;
   background-color: $lightgrey;
 }
 
 
 .inputContainer {
-  padding: 20px 20px 15px 20px;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
   position: relative;
   border-bottom: #e4e4ec 1px solid;
-  height: 90px;
+  height: 88px;
 
   i {
     position: absolute;
-    top: 44%;
-    right: 10%;
+    top: 37px;
+    right: 35px;
     color: $grey1;
   }
 
@@ -43,7 +44,7 @@
 }
 
 .list-mess {
-  margin-top: 20px;
+  margin: 20px 0;
 
   .list-msg {
     display: flex;
@@ -94,6 +95,7 @@
     .msg-content {
       width: 60%;
       margin-top: 6px;
+      height: 56px;
 
       // border:thin black solid;
       p:first-child {
@@ -103,7 +105,7 @@
 
       p:nth-child(2) {
         color: $grey-txt;
-        margin: 5px 0 0 0;
+        margin: 10px 0 0 0;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
@@ -111,12 +113,13 @@
     }
 
     .msg-time {
-      margin-top: 10px;
+      margin-top: 6px;
       width: 10%;
       margin-left: auto;
       font-size: 16px;
 
       p {
+        
         color: $grey-txt;
         // margin:10px 0 -6px;
         margin: 0;
@@ -124,6 +127,7 @@
       }
 
       span {
+        margin: 10px 0 0 0;
         vertical-align: middle;
         text-align: center;
         font-size: 16px;

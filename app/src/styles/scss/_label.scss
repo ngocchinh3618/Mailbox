@@ -1,7 +1,9 @@
+.label-991{
+	margin-top: 44px;
+}
 .labels {
 	display: flex;
-	margin: 44px 0 25px;
-	height: 30px;
+	margin-bottom: 30px;
 	font-size: 16px;
 	align-items: center;
 
@@ -15,8 +17,7 @@
 	.item-label2 {
 		width: 55%;
 		display: flex;
-		justify-content: flex-end;
-		margin-right: 1%;		
+		justify-content: flex-end;	
 
 		span {
 			// border: thin black solid;
@@ -31,9 +32,7 @@
 	}
 
 	.item-label3 {
-		width: 30px;
-		align-self: center;
-    text-align: end;
+		margin-left: auto;
 
 		span{
 			color: #a6adb7;
@@ -46,8 +45,9 @@
 .tag-labels {
 	// border:thin black solid;
 	display: flex;
-	margin-bottom: 30px;
+	margin-bottom: 32px;
 	font-size: 16px;
+	align-items: center;
 
 
 	.label-rectangle{

@@ -1,21 +1,20 @@
 .content {
-	width: 95%;
+	width: 93%;
 	display: flex;
 	box-shadow: -4px 0 5px -5px #e4e4ec;
 	border-radius: 20px;
-	min-height: 700px;
 	background-color: white;
 }
 
 .sub-side {
-	width: 300px;
+	width: 452px;
 	// border: thin yellow solid;
 	// min-height: 700px;	
-	margin: 30px 15px;
+	margin: 20px 15px;
 
 	.content-mailbox {
 		border-bottom: thin #e4e4ec solid;
-		height: 77px;
+		height: 88px;
 		display: flex;
 		align-items: center;
 
@@ -37,7 +36,7 @@
 
 			// border: thin black solid;
 			p {
-				margin: 12px 0 0 18px;
+				margin: -9px 0 0 18px;
 				font-size: 27px;
 				font-weight: 600;
 				// font-family:;
@@ -118,6 +117,15 @@
 				border-radius: 10px;
 			}
 
+		}
+	}
+	.inbox-first{
+		color: $greenNb;
+		.item-box1{
+			span{
+				color: $greenNb;
+			}
+			
 		}
 	}
 
