@@ -93,8 +93,8 @@ body {
           margin-left: 14px;
           margin-right: 14px;
           padding-top: 12px; }
-        .side .icon-nav ul li .side-icon {
-          fill: #bec4cd; }
+        .side .icon-nav ul li .icon-diveo {
+          color: #9da5b0; }
         .side .icon-nav ul li span {
           color: #bec4cd;
           font-size: 24px; }
@@ -159,7 +159,7 @@ body {
     margin: 20px 0 45px 0;
     display: flex;
     border-radius: 10px;
-    background-color: #00A489;
+    background-color: #00A389;
     align-items: center; }
     .sub-side .box p {
       margin: 13px 0px 13px 18px;
