@@ -7,7 +7,7 @@
 }
 
 .sub-side {
-	width: 452px;
+	width: 400px;
 	// border: thin yellow solid;
 	// min-height: 700px;	
 	margin: 20px 15px;
@@ -36,7 +36,7 @@
 
 			// border: thin black solid;
 			p {
-				margin: -9px 0 0 18px;
+				margin: -2px 0 0 18px;
 				font-size: 27px;
 				font-weight: 600;
 				// font-family:;
@@ -102,6 +102,9 @@
 			margin-left: 18px;
 			font-weight: 600;
 			font-size: 15px;
+			p{
+				margin:0;
+			}
 
 		}
 
@@ -109,6 +112,7 @@
 			text-align: center;
 
 			p {
+				margin:0;
 				width: 24px;
 				height: 24px;
 				line-height: 24px;

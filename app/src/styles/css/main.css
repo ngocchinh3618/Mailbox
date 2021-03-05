@@ -11,7 +11,7 @@
   color: #00A489;
   background-color: #C9ECE6;
   margin: 0;
-  line-height: 44px; }
+  line-height: 48px; }
 
 .imgAcc, .box-image img, .side .logo, .side .account img {
   max-width: 75%;
@@ -135,7 +135,7 @@ body {
   background-color: white; }
 
 .sub-side {
-  width: 452px;
+  width: 400px;
   margin: 20px 15px; }
   .sub-side .content-mailbox {
     border-bottom: thin #e4e4ec solid;
@@ -152,7 +152,7 @@ body {
       width: 40px;
       color: #a6adb7; }
     .sub-side .content-mailbox .txt-mail p {
-      margin: -9px 0 0 18px;
+      margin: -2px 0 0 18px;
       font-size: 27px;
       font-weight: 600; }
   .sub-side .box {
@@ -191,9 +191,12 @@ body {
       margin-left: 18px;
       font-weight: 600;
       font-size: 15px; }
+      .sub-side .inbox .item-box2 p {
+        margin: 0; }
     .sub-side .inbox .item-box3 {
       text-align: center; }
       .sub-side .inbox .item-box3 p {
+        margin: 0;
         width: 24px;
         height: 24px;
         line-height: 24px;
@@ -265,7 +268,7 @@ body {
 
 .labels {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   font-size: 16px;
   align-items: center; }
   .labels .item-label1 {
@@ -356,7 +359,7 @@ body {
   margin: 20px 0; }
   .list-mess .list-msg {
     display: flex;
-    padding: 16px 20px 12px 12px;
+    padding: 12px 20px 12px 12px;
     margin: 0 15px; }
     .list-mess .list-msg .msg-img {
       width: 17%; }
@@ -531,7 +534,7 @@ body {
   color: #384055;
   font-size: 18px;
   margin-top: 43px;
-  height: 228px;
+  height: 188px;
   word-wrap: break-word; }
   .txt-msg-content a {
     color: #00a389; }
