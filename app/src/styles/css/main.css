@@ -11,8 +11,12 @@
   color: #00a28a;
   background-color: #cbeee6;
   margin: 0;
+<<<<<<< HEAD
   line-height: 44px;
   font-weight: 600; }
+=======
+  line-height: 48px; }
+>>>>>>> a68253fb119dba5f2ac95bd60265f77b3b6ef047
 
 .imgAcc, .side .account img {
   max-width: 75%;
@@ -133,7 +137,7 @@ body {
   background-color: white; }
 
 .sub-side {
-  width: 452px;
+  width: 400px;
   margin: 20px 15px; }
   .sub-side .content-mailbox {
     border-bottom: thin #dddee1 solid;
@@ -150,7 +154,7 @@ body {
       width: 40px;
       color: #95999c; }
     .sub-side .content-mailbox .txt-mail p {
-      margin: -9px 0 0 18px;
+      margin: -2px 0 0 18px;
       font-size: 27px;
       font-weight: 600; }
   .sub-side .box {
@@ -194,6 +198,7 @@ body {
     .sub-side .inbox .item-box3 {
       text-align: center; }
       .sub-side .inbox .item-box3 p {
+        margin: 0;
         width: 24px;
         height: 24px;
         line-height: 24px;
@@ -266,7 +271,7 @@ body {
 
 .labels {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   font-size: 16px;
   align-items: center; }
   .labels .item-label1 {
@@ -531,7 +536,11 @@ body {
   color: #384055;
   font-size: 18px;
   margin-top: 43px;
+<<<<<<< HEAD
   height: 200px;
+=======
+  height: 188px;
+>>>>>>> a68253fb119dba5f2ac95bd60265f77b3b6ef047
   word-wrap: break-word; }
   .txt-msg-content a {
     color: #00a28a; }

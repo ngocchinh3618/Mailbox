@@ -7,7 +7,13 @@
 }
 
 .sub-side {
+<<<<<<< HEAD
 	width: 452px;
+=======
+	width: 400px;
+	// border: thin yellow solid;
+	// min-height: 700px;	
+>>>>>>> a68253fb119dba5f2ac95bd60265f77b3b6ef047
 	margin: 20px 15px;
 
 	.content-mailbox {
@@ -32,7 +38,7 @@
 
 		.txt-mail {
 			p {
-				margin: -9px 0 0 18px;
+				margin: -2px 0 0 18px;
 				font-size: 27px;
 				font-weight: 600;
 			}
@@ -107,6 +113,7 @@
 			text-align: center;
 
 			p {
+				margin:0;
 				width: 24px;
 				height: 24px;
 				line-height: 24px;
