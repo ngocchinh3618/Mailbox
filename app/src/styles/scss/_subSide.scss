@@ -1,19 +1,17 @@
 .content {
 	width: 93%;
 	display: flex;
-	box-shadow: -4px 0 5px -5px #e4e4ec;
+	box-shadow: -4px 0 5px -5px $greyBorder;
 	border-radius: 20px;
 	background-color: white;
 }
 
 .sub-side {
 	width: 452px;
-	// border: thin yellow solid;
-	// min-height: 700px;	
 	margin: 20px 15px;
 
 	.content-mailbox {
-		border-bottom: thin #e4e4ec solid;
+		border-bottom: thin $greyBorder solid;
 		height: 88px;
 		display: flex;
 		align-items: center;
@@ -21,25 +19,22 @@
 		.chevron-left {
 			span {
 				text-decoration: none;
-				background-color: #f4f5f6;
+				background-color: $bg-back;
 				text-align: center;
 				border-radius: 12px;
 				padding-top: 8px;
 				height: 40px;
 				width: 40px;
-				color: #a6adb7;
+				color: $color-back;
 				
 			}
 		}
 
 		.txt-mail {
-
-			// border: thin black solid;
 			p {
 				margin: -9px 0 0 18px;
 				font-size: 27px;
 				font-weight: 600;
-				// font-family:;
 			}
 		}
 	}
@@ -49,7 +44,7 @@
 		margin: 20px 0 45px 0;
 		display: flex;
 		border-radius: 10px;
-		background-color: #00A389;
+		background-color: $green;
 		align-items: center;
 
 		p {
@@ -79,19 +74,19 @@
 
 			.list-icon {
 				font-size: 22px;
-				fill: #a6adb7;
+				fill: $grey-icon;
 				width: 25px;
 				text-align: center;
 
 				.top-icon	{
-					fill:#9da5b0;
+					fill:$grey-icon-dark;
 				}
 				.bottom-icon{
-					fill:#bec4cd;
+					fill:$grey-icon;
 				}
 			}
 			span{
-				color:$grey1;
+				color:$grey-icon;
 			}
 
 		}
@@ -116,7 +111,7 @@
 				height: 24px;
 				line-height: 24px;
 				color: white;
-				background-color: $greenNb;
+				background-color: $green;
 				border-radius: 10px;
 				margin: 0;
 			}
@@ -124,29 +119,29 @@
 		}
 	}
 	.inbox-first{
-		color: $greenNb;
+		color: $green;
 		.item-box1{
 			span{
-				color: $greenNb;
+				color: $green;
 			}
 			
 		}
 	}
 
 	.inbox:hover {
-		color: $greenNb;
+		color: $green;
 
 		.list-icon {
-			fill: $greenNb;
+			fill: $green;
 			.top-icon	{
-				fill: $greenNb;
+				fill: $green;
 			}
 			.bottom-icon{
-				fill: $greenNb;
+				fill: $green;
 			}
 		}
 		span{
-			color: $greenNb;
+			color: $green;
 		}
 	}
 

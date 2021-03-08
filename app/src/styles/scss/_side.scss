@@ -10,10 +10,23 @@
 	justify-content: center;
 
 	.logo {
-		// width: 100%;
-		@extend .imgAcc;
-		align-self: flex-start;
-		margin-top: 44%;
+		width: 32px;
+		.triangle-up{
+			width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 15px solid $green;
+			
+		}
+		.triangle-down{
+			margin-left: auto;
+			width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 15px solid $red-logo;
+		}
 	}
 
 	.icon-nav {
@@ -39,49 +52,49 @@
 				}
 
 				.icon-diveo{
-					color:#9da5b0;
+					color:$grey-icon-dark;
 				}
 
 				span {
-					color: $icon-grey;
+					color: $grey-icon;
 					font-size: 24px;
 				}
 			}
 
 			li:hover {
-				border-right: 5px solid#00a389;
+				border-right: 5px solid $green;
 
 				.side-icon-container {
 
 					border-radius: 10px;
-					background-color: #dff4f0;
+					background-color: $bg-light-green;
 
 					.side-icon {
-						fill: #00a389;
+						fill: $green;
 
 					}
 
 					span {
-						color: $greenNb;
+						color: $green;
 					}
 				}
 			}
 
 			.icon-side-act {
-				border-right: 5px solid#00a389;
+				border-right: 5px solid$green;
 
 				.side-icon-container {
 
 					border-radius: 10px;
-					background-color: #dff4f0;
+					background-color: $bg-light-green;
 
 					.side-icon {
-						fill: #00a389;
+						fill: $green;
 
 					}
 
 					span {
-						color: $greenNb;
+						color: $green;
 					}
 				}
 			}
@@ -97,10 +110,9 @@
 		bottom: 1px;
 		justify-content: center;
 		margin-bottom: 25%;
-		border: thin black solid ;
 
 		img {
-			@extend .box-image;
+			// @extend .box-image;
 			@extend .imgAcc;
 			align-self: flex-end;
 

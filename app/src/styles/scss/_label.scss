@@ -22,9 +22,9 @@
 		span {
 			// border: thin black solid;
 			border-radius: 10px;
-			background-color: #dff4f0;
+			background-color: $bg-light-green;
 			text-align: center;
-			color: #2bb29d;
+			color: $green;
 			width:30px;
 			height: 30px;
 			line-height: 30px;
@@ -35,7 +35,7 @@
 		margin-left: auto;
 
 		span{
-			color: #a6adb7;
+			color: $grey-icon;
 			line-height: 30px;
 		}
 
@@ -52,60 +52,50 @@
 
 	.label-rectangle{
 		@extend .label-rectangle;
-		background-color: #e5e6ef ;
+		background-color: $lable-grey;
 	}
 	.label-rectangle::after{
 		@extend .label-triangle ;
-		border-left: 8px solid #e5e6ef;
+		border-left: 8px solid $lable-grey;
 	}
 
 	
 	.label-rectangle1{
 		@extend .label-rectangle;
-		background-color:#f3e0ac ;
+		background-color:$lable-yellow ;
 	}
 	.label-rectangle1::after{
 		@extend .label-triangle ;
-		border-left: 8px solid #f3e0ac;
+		border-left: 8px solid $lable-yellow;
 	}
 	.label-rectangle2{
 		@extend .label-rectangle;
-		background-color:#8edccf;
+		background-color:$lable-green;
 	}
 	.label-rectangle2::after{
 		@extend .label-triangle ;
-		border-left: 8px solid #8edccf;
+		border-left: 8px solid $lable-green;
 	}
 	.label-rectangle3{
 		@extend .label-rectangle;
-		background-color:#b4e9ff ;
+		background-color:$lable-blue ;
 	}
 	.label-rectangle3::after{
 		@extend .label-triangle ;
-		border-left: 8px solid #b4e9ff;
+		border-left: 8px solid $lable-blue;
 	}
 	.label-rectangle4{
 		@extend .label-rectangle;
-		background-color:#d6caff ;
+		background-color:$lable-purple ;
 	}
 	.label-rectangle4::after{
 		@extend .label-triangle ;
-		border-left: 8px solid #d6caff;
+		border-left: 8px solid $lable-purple;
 	}
-	// .box-label1 {
-	// 	margin-left: 12px;
-	// 	height: 18px;
-	// 	width: 30px;
-	// 	background-color: #d0d3e3;
-	// 	border-radius: 5px;
-	// 	clip-path: polygon(0 6%, 6% 0, 79% 0, 100% 50%, 80% 100%, 6% 100%, 0 94%);
-	// }
 
 	.box-label2 {
 		width: 70%;
-		// height: 30px;
 		margin-left: 18px;
-		// border:thin rgb(196, 61, 61) solid;
 	}
 }
 

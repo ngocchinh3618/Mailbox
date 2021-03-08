@@ -12,10 +12,11 @@
   height: 100%;
   text-align: center;
   border-radius: 50%;
-  color:#00A489;
-  background-color:#C9ECE6;
+  color:$green;
+  background-color:$bg-light-green;
   margin:0;
   line-height:44px;
+  font-weight: 600;
 
 }
 
@@ -51,37 +52,37 @@
   border-bottom: 9px solid transparent;
 }
 
-.box-image {
-  border-radius: 50%;
+// .box-image {
+//   border-radius: 50%;
 
-  img {
-    @extend .imgAcc;
-    // position: relative;
-  }
+//   img {
+//     @extend .imgAcc;
+//     // position: relative;
+//   }
 
-  p {
-    margin: 0;
-    font-weight: lighter;
-  }
+//   p {
+//     margin: 0;
+//     font-weight: lighter;
+//   }
 
-  .ts {
-    @extend .abbrName;
-    align-self: center;
+//   .ts {
+//     @extend .abbrName;
+//     align-self: center;
 
-  }
+//   }
 
-  .kk {
-    @extend .abbrName;
-    color: #CBB152;
-    background-color: #FFF0C7;
-  }
+//   .kk {
+//     @extend .abbrName;
+//     color: #CBB152;
+//     background-color: #FFF0C7;
+//   }
 
-  .pk {
-    @extend .abbrName;
-    color: #FB730F;
-    background-color: #FFCBA5;
-  }
-}
+//   .pk {
+//     @extend .abbrName;
+//     color: #FB730F;
+//     background-color: #FFCBA5;
+//   }
+// }
 //* ~lable*//
 
 // displayListMess
