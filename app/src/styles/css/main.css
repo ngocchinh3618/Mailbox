@@ -69,7 +69,7 @@ body {
   display: flex; }
 
 .side {
-  width: 88px;
+  width: 100px;
   text-align: center;
   /* border: thin black solid; */
   min-height: 700px;
@@ -118,14 +118,14 @@ body {
             color: #00a389; }
   .side .account {
     align-self: flex-end;
-    width: 100%;
+    width: 56px;
     display: flex;
     bottom: 1px;
     justify-content: center;
-    margin-bottom: 25%; }
+    margin-bottom: 25%;
+    border: thin black solid; }
     .side .account img {
-      align-self: flex-end;
-      max-width: 60%; }
+      align-self: flex-end; }
 
 .content {
   width: 93%;
@@ -191,6 +191,8 @@ body {
       margin-left: 18px;
       font-weight: 600;
       font-size: 15px; }
+      .sub-side .inbox .item-box2 p {
+        margin: 0; }
     .sub-side .inbox .item-box3 {
       text-align: center; }
       .sub-side .inbox .item-box3 p {
@@ -199,7 +201,8 @@ body {
         line-height: 24px;
         color: white;
         background-color: #00a389;
-        border-radius: 10px; }
+        border-radius: 10px;
+        margin: 0; }
   .sub-side .inbox-first {
     color: #00a389; }
     .sub-side .inbox-first .item-box1 span {
@@ -356,7 +359,7 @@ body {
   margin: 20px 0; }
   .list-mess .list-msg {
     display: flex;
-    padding: 16px 20px 12px 12px;
+    padding: 12px 20px 12px 12px;
     margin: 0 15px; }
     .list-mess .list-msg .msg-img {
       width: 17%; }
@@ -531,7 +534,7 @@ body {
   color: #384055;
   font-size: 18px;
   margin-top: 43px;
-  height: 228px;
+  height: 200px;
   word-wrap: break-word; }
   .txt-msg-content a {
     color: #00a389; }
@@ -603,6 +606,8 @@ body {
       padding: 18px 12px 12px 12px;
       border-right: thin #ececec solid; }
       .mess-container .icon-mess .icon-group1 i:hover {
+        color: #48bca5; }
+      .mess-container .icon-mess .icon-group1 .fa-bold {
         color: #48bca5; }
     .mess-container .icon-mess .icon-group2 {
       width: 50%;

@@ -1,5 +1,5 @@
 .side {
-	width: 88px;
+	width: 100px;
 	// margin: 50px 0 24px;
 	text-align: center;
 	/* border: thin black solid; */
@@ -92,17 +92,17 @@
 
 	.account {
 		align-self: flex-end;
-		width: 100%;
+		width: 56px;
 		display: flex;
 		bottom: 1px;
 		justify-content: center;
 		margin-bottom: 25%;
+		border: thin black solid ;
 
 		img {
 			@extend .box-image;
 			@extend .imgAcc;
 			align-self: flex-end;
-			max-width: 60%;
 
 		}
 	}
