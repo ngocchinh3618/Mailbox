@@ -4,7 +4,7 @@
 }
 
 .border-content {
-  border-bottom: thin solid $greyBorder;
+  border-bottom: thin solid $grey-border;
   height: 88px;
   display: flex;
   align-items: center;
@@ -147,8 +147,6 @@
 }
 
 
-
-
 .txt-msg-content {
   color: #384055;
   font-size: 18px;
@@ -201,7 +199,7 @@
       justify-content: space-around;
       align-items: center;
       border-radius: 8px;
-      background-color: $greenNb;
+      background-color: $green;
       border: none;
       color: white;
       margin-left: 16px;
