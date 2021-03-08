@@ -1,47 +1,42 @@
 .side {
-	width: 100px;
-	// margin: 50px 0 24px;
+	width: 84px;
 	text-align: center;
-	/* border: thin black solid; */
-	min-height: 700px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-
+}
 	.logo {
-		width: 32px;
+		width: 25px;
+		align-self: flex-start;
+    margin-top: 48px;
 		.triangle-up{
 			width: 0;
       height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-bottom: 15px solid $green;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 12px solid $green;
 			
 		}
 		.triangle-down{
 			margin-left: auto;
 			width: 0;
       height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-top: 15px solid $red-logo;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 12px solid $red-logo;
 		}
 	}
 
 	.icon-nav {
 		width: 100%;
 
-		// border: thin black solid;
 		ul {
 			list-style-type: none;
 			padding-inline-start: 0;
-			// border: thin red solid;
-
 
 			li {
 				border-right: 5px solid #ffffff;
-
 				margin-bottom: 8px;
 
 				.side-icon-container {
@@ -65,13 +60,11 @@
 				border-right: 5px solid $green;
 
 				.side-icon-container {
-
 					border-radius: 10px;
 					background-color: $bg-light-green;
 
 					.side-icon {
 						fill: $green;
-
 					}
 
 					span {
@@ -84,21 +77,18 @@
 				border-right: 5px solid$green;
 
 				.side-icon-container {
-
 					border-radius: 10px;
 					background-color: $bg-light-green;
 
 					.side-icon {
 						fill: $green;
-
 					}
 
 					span {
 						color: $green;
-					}
+					}	
 				}
 			}
-
 
 		}
 	}
@@ -118,4 +108,3 @@
 
 		}
 	}
-}

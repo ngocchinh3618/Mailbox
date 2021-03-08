@@ -15,12 +15,7 @@
   color:$green;
   background-color:$bg-light-green;
   margin:0;
-<<<<<<< HEAD
-  line-height:44px;
   font-weight: 600;
-=======
-  line-height:48px;
->>>>>>> a68253fb119dba5f2ac95bd60265f77b3b6ef047
 
 }
 
@@ -55,47 +50,7 @@
   border-left: 8px solid blue;
   border-bottom: 9px solid transparent;
 }
-
-// .box-image {
-//   border-radius: 50%;
-
-//   img {
-//     @extend .imgAcc;
-//     // position: relative;
-//   }
-
-//   p {
-//     margin: 0;
-//     font-weight: lighter;
-//   }
-
-//   .ts {
-//     @extend .abbrName;
-//     align-self: center;
-
-//   }
-
-//   .kk {
-//     @extend .abbrName;
-//     color: #CBB152;
-//     background-color: #FFF0C7;
-//   }
-
-//   .pk {
-//     @extend .abbrName;
-//     color: #FB730F;
-//     background-color: #FFCBA5;
-//   }
-// }
-//* ~lable*//
-
-// displayListMess
-//maiContent
 .hr-box-msg {
   color:$grey-border;
   margin: 0;
 }
-
-//maiContent
-
-// position: relative;

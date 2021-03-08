@@ -11,14 +11,9 @@
   color: #00a28a;
   background-color: #cbeee6;
   margin: 0;
-<<<<<<< HEAD
-  line-height: 44px;
   font-weight: 600; }
-=======
-  line-height: 48px; }
->>>>>>> a68253fb119dba5f2ac95bd60265f77b3b6ef047
 
-.imgAcc, .side .account img {
+.imgAcc, .account img {
   max-width: 75%;
   border-radius: 50%;
   object-fit: cover; }
@@ -60,74 +55,77 @@ body {
   display: flex; }
 
 .side {
-  width: 100px;
+  width: 84px;
   text-align: center;
-  /* border: thin black solid; */
-  min-height: 700px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center; }
-  .side .logo {
-    width: 32px; }
-    .side .logo .triangle-up {
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-bottom: 15px solid #00a28a; }
-    .side .logo .triangle-down {
-      margin-left: auto;
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-top: 15px solid #fa5d5d; }
-  .side .icon-nav {
-    width: 100%; }
-    .side .icon-nav ul {
-      list-style-type: none;
-      padding-inline-start: 0; }
-      .side .icon-nav ul li {
-        border-right: 5px solid #ffffff;
-        margin-bottom: 8px; }
-        .side .icon-nav ul li .side-icon-container {
-          height: 52px;
-          margin-left: 14px;
-          margin-right: 14px;
-          padding-top: 12px; }
-        .side .icon-nav ul li .icon-diveo {
-          color: #9da5b0; }
-        .side .icon-nav ul li span {
-          color: #bfc3df;
-          font-size: 24px; }
-      .side .icon-nav ul li:hover {
-        border-right: 5px solid #00a28a; }
-        .side .icon-nav ul li:hover .side-icon-container {
-          border-radius: 10px;
-          background-color: #cbeee6; }
-          .side .icon-nav ul li:hover .side-icon-container .side-icon {
-            fill: #00a28a; }
-          .side .icon-nav ul li:hover .side-icon-container span {
-            color: #00a28a; }
-      .side .icon-nav ul .icon-side-act {
-        border-right: 5px solid #00a28a; }
-        .side .icon-nav ul .icon-side-act .side-icon-container {
-          border-radius: 10px;
-          background-color: #cbeee6; }
-          .side .icon-nav ul .icon-side-act .side-icon-container .side-icon {
-            fill: #00a28a; }
-          .side .icon-nav ul .icon-side-act .side-icon-container span {
-            color: #00a28a; }
-  .side .account {
-    align-self: flex-end;
-    width: 56px;
-    display: flex;
-    bottom: 1px;
-    justify-content: center;
-    margin-bottom: 25%; }
-    .side .account img {
-      align-self: flex-end; }
+
+.logo {
+  width: 25px;
+  align-self: flex-start;
+  margin-top: 48px; }
+  .logo .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 12px solid #00a28a; }
+  .logo .triangle-down {
+    margin-left: auto;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #fa5d5d; }
+
+.icon-nav {
+  width: 100%; }
+  .icon-nav ul {
+    list-style-type: none;
+    padding-inline-start: 0; }
+    .icon-nav ul li {
+      border-right: 5px solid #ffffff;
+      margin-bottom: 8px; }
+      .icon-nav ul li .side-icon-container {
+        height: 52px;
+        margin-left: 14px;
+        margin-right: 14px;
+        padding-top: 12px; }
+      .icon-nav ul li .icon-diveo {
+        color: #9da5b0; }
+      .icon-nav ul li span {
+        color: #bfc3df;
+        font-size: 24px; }
+    .icon-nav ul li:hover {
+      border-right: 5px solid #00a28a; }
+      .icon-nav ul li:hover .side-icon-container {
+        border-radius: 10px;
+        background-color: #cbeee6; }
+        .icon-nav ul li:hover .side-icon-container .side-icon {
+          fill: #00a28a; }
+        .icon-nav ul li:hover .side-icon-container span {
+          color: #00a28a; }
+    .icon-nav ul .icon-side-act {
+      border-right: 5px solid #00a28a; }
+      .icon-nav ul .icon-side-act .side-icon-container {
+        border-radius: 10px;
+        background-color: #cbeee6; }
+        .icon-nav ul .icon-side-act .side-icon-container .side-icon {
+          fill: #00a28a; }
+        .icon-nav ul .icon-side-act .side-icon-container span {
+          color: #00a28a; }
+
+.account {
+  align-self: flex-end;
+  width: 56px;
+  display: flex;
+  bottom: 1px;
+  justify-content: center;
+  margin-bottom: 25%; }
+  .account img {
+    align-self: flex-end; }
 
 .content {
   width: 93%;
@@ -137,7 +135,7 @@ body {
   background-color: white; }
 
 .sub-side {
-  width: 400px;
+  width: 452px;
   margin: 20px 15px; }
   .sub-side .content-mailbox {
     border-bottom: thin #dddee1 solid;
@@ -279,7 +277,7 @@ body {
     color: #727a86;
     padding-top: 3px; }
   .labels .item-label2 {
-    width: 55%;
+    width: 60%;
     display: flex;
     justify-content: flex-end; }
     .labels .item-label2 span {
@@ -287,9 +285,10 @@ body {
       background-color: #cbeee6;
       text-align: center;
       color: #00a28a;
-      width: 30px;
-      height: 30px;
-      line-height: 30px; }
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      font-size: 16px; }
   .labels .item-label3 {
     margin-left: auto; }
     .labels .item-label3 span {
@@ -369,7 +368,8 @@ body {
       .list-mess .list-msg .msg-img .box-img {
         width: 44px;
         height: 44px;
-        border-radius: 50%; }
+        border-radius: 50%;
+        line-height: 44px; }
         .list-mess .list-msg .msg-img .box-img img {
           width: 100%;
           border-radius: 50%;
@@ -416,13 +416,13 @@ body {
         margin-top: 7px; }
         .list-mess .list-msg .msg-time .item-box3 p {
           margin-left: auto;
-          width: 27px;
+          width: 24px;
           text-align: center;
-          height: 25px;
+          height: 24px;
           color: white;
           background-color: #00a28a;
           border-radius: 10px;
-          line-height: 25px; }
+          line-height: 24px; }
       .list-mess .list-msg .msg-time .star-icon-green {
         color: #00a28a;
         font-size: 16px; }
@@ -536,11 +536,6 @@ body {
   color: #384055;
   font-size: 18px;
   margin-top: 43px;
-<<<<<<< HEAD
-  height: 200px;
-=======
-  height: 188px;
->>>>>>> a68253fb119dba5f2ac95bd60265f77b3b6ef047
   word-wrap: break-word; }
   .txt-msg-content a {
     color: #00a28a; }
