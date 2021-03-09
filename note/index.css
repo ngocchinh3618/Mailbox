@@ -20,3 +20,43 @@ label-content::after{
     z-index: -1; 
 }
 
+bn border 
+bao nhiu font-weight, font-size: px hết, margin, padding có bao nhiêu kích cỡ,
+button
+
+
+$jade-darkest: #00a28a; 
+$jade-light: #8ddccf;
+
+$skyblue: #b1e9ff;
+$skyblue-light:#cbeee6;
+
+$grey-purple: #bfc3df;
+$grey-dark: #95999c;  
+$grey: #dddee1;
+$grey-light: #d9dbe8;
+$grey-lighter: #e4e7ee;
+$grey-lightest: #f5f6f8;
+
+$purple-taro: #cdbeff;
+$purple-taro-dark:#cfd4e4;
+
+
+$red-chalk: #fa5d5d;
+
+$brown-yellow-dark:#655628;  
+$brown-yellow-light: #bca246;
+$brown-yellow: #f3ddaa;
+
+$orange-red: #f26e0a;
+$orange-red-light:#ffcbab;  
+$orange-red-lighter:#ffefc3;
+
+
+
+
+
+
+
+
+

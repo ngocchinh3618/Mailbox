@@ -1,0 +1,61 @@
+.label-991{
+	margin-top: 44px;
+}
+.labels {
+	display: flex;
+	margin-bottom: 32px;
+	font-size: 16px;
+	align-items: center;
+
+	.item-label1 {
+		margin-left: 12px;
+		color: #727a86;
+		// border: thin black solid;
+		padding-top: 3px;
+	}
+
+	.item-label2 {
+		width: 60%;
+		display: flex;
+		justify-content: flex-end;	
+
+		span {
+			// border: thin black solid;
+			border-radius: 10px;
+			background-color: $skyblue-light;
+			text-align: center;
+			color: $jade-darkest;
+			width:28px;
+			height: 28px;
+			line-height: 28px;
+			font-size: 16px;
+		}
+	}
+
+	.item-label3 {
+		margin-left: auto;
+
+		span{
+			color: $grey-purple;
+			line-height: 30px;
+		}
+
+	}
+}
+
+.tag-labels {
+	// border:thin black solid;
+	display: flex;
+	margin-bottom: 32px;
+	font-size: 16px;
+	align-items: center;
+
+	@include label-rectangle;
+
+	.box-label2 {
+		width: 70%;
+		margin-left: 18px;
+	}
+}
+
+

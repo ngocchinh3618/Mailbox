@@ -8,7 +8,7 @@
     border-bottom-style: none;
     width: 100%;
     // height: 15vh;
-    border: $grey-border thin solid;
+    border: $grey thin solid;
     padding:2%;
     height: 8vw;
     // font-family:"Times New Roman", Times, serif;
@@ -20,20 +20,20 @@
   .icon-mess{
     display:flex;
     // justify-content: flex-start;
-    border: $grey-border thin solid;
+    border: $grey thin solid;
     // width: 100%;
     margin-top: -8px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     height: 48px;
-    color:$grey-icon;
+    color:$grey-purple;
 
     .icon-group1{
       width: 30%;
       display: flex;
       justify-content: space-around;
       padding: 18px 12px 12px 12px;
-      border-right: thin $grey-border solid;
+      border-right: thin $grey solid;
       i:hover{
         color:#48bca5;
       }

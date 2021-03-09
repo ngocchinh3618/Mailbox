@@ -1,7 +1,7 @@
 .content {
 	width: 93%;
 	display: flex;
-	box-shadow: -4px 0 5px -5px $grey-border;
+	box-shadow: -4px 0 5px -5px $grey;
 	border-radius: 20px;
 	background-color: white;
 }
@@ -11,7 +11,7 @@
 	margin: 20px 15px;
 
 	.content-mailbox {
-		border-bottom: thin $grey-border solid;
+		border-bottom: thin $grey solid;
 		height: 88px;
 		display: flex;
 		align-items: center;
@@ -19,13 +19,13 @@
 		.chevron-left {
 			span {
 				text-decoration: none;
-				background-color: $bg-back;
+				background-color: $grey-lightest;
 				text-align: center;
 				border-radius: 12px;
 				padding-top: 8px;
 				height: 40px;
 				width: 40px;
-				color: $color-back;
+				color: $grey-dark;
 				
 			}
 		}
@@ -44,7 +44,7 @@
 		margin: 20px 0 45px 0;
 		display: flex;
 		border-radius: 10px;
-		background-color: $green;
+		background-color: $jade-darkest;
 		align-items: center;
 
 		p {
@@ -74,19 +74,19 @@
 
 			.list-icon {
 				font-size: 22px;
-				fill: $grey-icon;
+				fill: $grey-purple;
 				width: 25px;
 				text-align: center;
 
 				.top-icon	{
-					fill:$grey-icon-dark;
+					fill:$grey-dark;
 				}
 				.bottom-icon{
-					fill:$grey-icon;
+					fill:$grey-purple;
 				}
 			}
 			span{
-				color:$grey-icon;
+				color:$grey-purple;
 			}
 
 		}
@@ -112,7 +112,7 @@
 				height: 24px;
 				line-height: 24px;
 				color: white;
-				background-color: $green;
+				background-color: $jade-darkest;
 				border-radius: 10px;
 				margin: 0;
 			}
@@ -120,29 +120,29 @@
 		}
 	}
 	.inbox-first{
-		color: $green;
+		color: $jade-darkest;
 		.item-box1{
 			span{
-				color: $green;
+				color: $jade-darkest;
 			}
 			
 		}
 	}
 
 	.inbox:hover {
-		color: $green;
+		color: $jade-darkest;
 
 		.list-icon {
-			fill: $green;
+			fill: $jade-darkest;
 			.top-icon	{
-				fill: $green;
+				fill: $jade-darkest;
 			}
 			.bottom-icon{
-				fill: $green;
+				fill: $jade-darkest;
 			}
 		}
 		span{
-			color: $green;
+			color: $jade-darkest;
 		}
 	}
 

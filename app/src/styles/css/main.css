@@ -42,6 +42,12 @@
   color: #dddee1;
   margin: 0; }
 
+.commonLogo, .logo .triangle-up, .logo .triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent; }
+
 * {
   box-sizing: border-box; }
 
@@ -67,17 +73,9 @@ body {
   align-self: flex-start;
   margin-top: 48px; }
   .logo .triangle-up {
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
     border-bottom: 12px solid #00a28a; }
   .logo .triangle-down {
     margin-left: auto;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
     border-top: 12px solid #fa5d5d; }
 
 .icon-nav {
@@ -86,36 +84,60 @@ body {
     list-style-type: none;
     padding-inline-start: 0; }
     .icon-nav ul li {
-      border-right: 5px solid #ffffff;
+      border-right: 5px solid white;
       margin-bottom: 8px; }
       .icon-nav ul li .side-icon-container {
+        border-radius: 10px;
         height: 52px;
         margin-left: 14px;
         margin-right: 14px;
-        padding-top: 12px; }
-      .icon-nav ul li .icon-diveo {
-        color: #9da5b0; }
+        padding-top: 12px;
+        background-color: white; }
+        .icon-nav ul li .side-icon-container span {
+          color: #bfc3df; }
+        .icon-nav ul li .side-icon-container .icon-diveo {
+          color: #95999c; }
       .icon-nav ul li span {
         color: #bfc3df;
         font-size: 24px; }
     .icon-nav ul li:hover {
-      border-right: 5px solid #00a28a; }
+      border-right: 5px solid #00a28a;
+      margin-bottom: 8px; }
       .icon-nav ul li:hover .side-icon-container {
         border-radius: 10px;
+        height: 52px;
+        margin-left: 14px;
+        margin-right: 14px;
+        padding-top: 12px;
         background-color: #cbeee6; }
-        .icon-nav ul li:hover .side-icon-container .side-icon {
-          fill: #00a28a; }
         .icon-nav ul li:hover .side-icon-container span {
           color: #00a28a; }
+        .icon-nav ul li:hover .side-icon-container .icon-diveo {
+          color: #95999c; }
+      .icon-nav ul li:hover span {
+        color: #00a28a;
+        font-size: 24px; }
+      .icon-nav ul li:hover .side-icon {
+        fill: #00a28a; }
+      .icon-nav ul li:hover .icon-diveo {
+        color: #00a28a !important; }
     .icon-nav ul .icon-side-act {
-      border-right: 5px solid #00a28a; }
+      border-right: 5px solid #00a28a;
+      margin-bottom: 8px; }
       .icon-nav ul .icon-side-act .side-icon-container {
         border-radius: 10px;
+        height: 52px;
+        margin-left: 14px;
+        margin-right: 14px;
+        padding-top: 12px;
         background-color: #cbeee6; }
-        .icon-nav ul .icon-side-act .side-icon-container .side-icon {
-          fill: #00a28a; }
         .icon-nav ul .icon-side-act .side-icon-container span {
           color: #00a28a; }
+        .icon-nav ul .icon-side-act .side-icon-container .icon-diveo {
+          color: #95999c; }
+      .icon-nav ul .icon-side-act span {
+        color: #00a28a;
+        font-size: 24px; }
 
 .account {
   align-self: flex-end;
@@ -144,7 +166,7 @@ body {
     align-items: center; }
     .sub-side .content-mailbox .chevron-left span {
       text-decoration: none;
-      background-color: #f0f1f3;
+      background-color: #f5f6f8;
       text-align: center;
       border-radius: 12px;
       padding-top: 8px;
@@ -181,7 +203,7 @@ body {
         width: 25px;
         text-align: center; }
         .sub-side .inbox .item-box1 .list-icon .top-icon {
-          fill: #9da5b0; }
+          fill: #95999c; }
         .sub-side .inbox .item-box1 .list-icon .bottom-icon {
           fill: #bfc3df; }
       .sub-side .inbox .item-box1 span {
@@ -341,7 +363,7 @@ body {
     position: absolute;
     top: 37px;
     right: 35px;
-    color: #b6beca; }
+    color: #bfc3df; }
   .inputContainer input {
     font-family: 'Sofia Pro Light';
     width: 100%;
@@ -361,7 +383,7 @@ body {
   margin: 20px 0; }
   .list-mess .list-msg {
     display: flex;
-    padding: 12px 20px 12px 12px;
+    padding: 10px 20px 10px 12px;
     margin: 0 15px; }
     .list-mess .list-msg .msg-img {
       width: 17%; }
@@ -392,7 +414,7 @@ body {
         margin: 0;
         font-weight: 600; }
       .list-mess .list-msg .msg-content p:nth-child(2) {
-        color: #7c8994;
+        color: #95999c;
         margin: 10px 0 0 0;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -403,7 +425,7 @@ body {
       margin-left: auto;
       font-size: 16px; }
       .list-mess .list-msg .msg-time p {
-        color: #777d8a;
+        color: #95999c;
         margin: 0;
         text-align: center; }
       .list-mess .list-msg .msg-time span {
@@ -427,12 +449,7 @@ body {
         color: #00a28a;
         font-size: 16px; }
 
-.list-msg:hover {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 0px 3px 0px #dddee1; }
-
-.list-active {
+.list-msg:hover, .list-active {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 0px 3px 0px #dddee1; }
@@ -483,11 +500,11 @@ body {
       padding-left: 15px;
       color: #eaedf1; }
     .border-content .icon-content span:last-child {
-      color: #caced6; }
+      color: #95999c; }
 
 .title-msg p {
   margin-top: 20px;
-  color: #7c8994;
+  color: #95999c;
   font-size: 14px; }
 
 .title-msg h2 {
@@ -511,7 +528,7 @@ body {
         border-radius: 50%;
         object-fit: cover; }
       .box-msg .border-msg .box-msg-img span {
-        color: #9da5b0;
+        color: #95999c;
         font-size: 25px; }
   .box-msg .box-msg-content {
     display: flex;
@@ -522,7 +539,7 @@ body {
       margin: 0; }
     .box-msg .box-msg-content p:nth-child(2) {
       padding-left: 16px;
-      color: #7c8994;
+      color: #95999c;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
@@ -530,7 +547,7 @@ body {
       margin: 0; }
   .box-msg .box-msg-time {
     margin-left: auto;
-    color: #7c8994; }
+    color: #95999c; }
 
 .txt-msg-content {
   color: #384055;
