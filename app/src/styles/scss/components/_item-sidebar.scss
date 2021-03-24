@@ -1,0 +1,43 @@
+.sidebar__item {
+  display: flex;
+  padding: 12px 12px 12px 0;
+  align-items: center;
+  padding: 12px;
+  font-weight: $fw-1;
+  font-size: $fs-1;
+
+  .material-icons {
+    @include btn__default;
+    margin-right: 18px;
+  }
+
+  &:hover {
+    color: $jade-900;
+
+    .material-icons {
+      color: $jade-900;
+    }
+  }
+}
+
+.sidebar__item:first-of-type {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  color: $jade-900;
+  font-weight: $fw-1;
+  font-size: $fs-1;
+
+  .material-icons {
+    color: $jade-900;
+
+  }
+
+  .sidebar__item__number {
+    @include btn__jade;
+    margin-left: auto;
+    padding: 5px 8px;
+    color: white;
+    font-size: 14px;
+  }
+}

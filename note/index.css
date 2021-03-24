@@ -57,6 +57,17 @@ $orange-red-lighter:#ffefc3;
 
 
 
+// @extend .label-triangle ;
 
+// content: "";
+// margin-left: -2.5px;
+// position: absolute;
+// left: 100%;
+// top: 0px;
+// width: 0px;
+// height: 0px;
+// border-top: 16px solid transparent;
+// border-left: 14px solid red;
+// border-bottom: 16px solid transparent;
 
 

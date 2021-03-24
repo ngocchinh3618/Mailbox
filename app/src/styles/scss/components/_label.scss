@@ -1,61 +1,67 @@
-.label-991{
-	margin-top: 44px;
+.sidebar__lable__item {
+  .tag {
+    @include tag;
+    margin-right: 18px;
+    background-color: $grey-600;
+
+    &::before{
+      background-color: $grey-600;
+    }
+    &::after{
+      background-color: $grey-600;
+    }
+  }
+  .tag1 {
+    @include tag;
+    margin-right: 18px;
+    background-color: $brown-100;
+
+    &::before{
+      background-color: $brown-100;
+    }
+    &::after{
+      background-color: $brown-100;
+    }
+  }
+  .tag2 {
+    @include tag;
+    margin-right: 18px;
+    background-color: $jade-300;
+
+    &::before{
+      background-color: $jade-300;
+    }
+    &::after{
+      background-color: $jade-300;
+    }
+  }
+  .tag3 {
+    @include tag;
+    margin-right: 18px;
+    background-color: $jade-200;
+
+    &::before{
+      background-color: $jade-200;
+    }
+    &::after{
+      background-color: $jade-200;
+    }
+  }
+  .tag4 {
+    @include tag;
+    margin-right: 18px;
+    background-color: $grey-500;
+
+    &::before{
+      background-color: $grey-500;
+    }
+    &::after{
+      background-color: $grey-500;
+    }
+  }
+  &__title{
+    font-size: 12px;
+    font-weight: 700;
+    color: #312c2c;
+  }
 }
-.labels {
-	display: flex;
-	margin-bottom: 32px;
-	font-size: 16px;
-	align-items: center;
-
-	.item-label1 {
-		margin-left: 12px;
-		color: #727a86;
-		// border: thin black solid;
-		padding-top: 3px;
-	}
-
-	.item-label2 {
-		width: 60%;
-		display: flex;
-		justify-content: flex-end;	
-
-		span {
-			// border: thin black solid;
-			border-radius: 10px;
-			background-color: $skyblue-light;
-			text-align: center;
-			color: $jade-darkest;
-			width:28px;
-			height: 28px;
-			line-height: 28px;
-			font-size: 16px;
-		}
-	}
-
-	.item-label3 {
-		margin-left: auto;
-
-		span{
-			color: $grey-purple;
-			line-height: 30px;
-		}
-
-	}
-}
-
-.tag-labels {
-	// border:thin black solid;
-	display: flex;
-	margin-bottom: 32px;
-	font-size: 16px;
-	align-items: center;
-
-	@include label-rectangle;
-
-	.box-label2 {
-		width: 70%;
-		margin-left: 18px;
-	}
-}
-
-

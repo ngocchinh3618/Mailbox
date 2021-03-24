@@ -1,12 +1,13 @@
-@import "components/color";
-@import "common/commonClass";
-@import "common/commonVariable";
-@import "common/commonFunction";
-@import "general";
-@import "layouts/side";
-@import "layouts/subSide";
-@import "responsive/991px";
-@import "components/label";
-@import "layouts/contact";
-@import "layouts/mainContent";
-@import "components/textArea";
+// ** helpers
+@import 'helpers/variables';
+@import 'helpers/mixin';
+@import 'helpers/extend';
+
+// * base
+@import 'base/reset';
+
+//** components
+@import 'components/all';
+
+// ** layouts
+@import 'content';

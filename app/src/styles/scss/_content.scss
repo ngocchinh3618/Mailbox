@@ -1,0 +1,360 @@
+.page {
+  display: flex;
+  min-height: 800px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 92px;
+  padding: 0 20px;
+
+  .logo-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 12px solid $jade-900;
+  }
+
+  .logo-down {
+    @extend .logo-up;
+    margin-left: auto;
+    border-bottom: none;
+    border-top: 12px solid $red-500;
+  }
+
+  &__header {
+    width: 25px;
+    align-self: flex-start;
+    margin-top: 48px;
+  }
+
+  &__item {
+    color: $grey-700;
+    width: 100%;
+  }
+
+  &__footer {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    @include box-avata-md;
+
+  }
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: -4px 0 5px -6px black;
+}
+
+.sidebar {
+  width: 270px;
+  .sidebar__header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom: thin $grey-300 solid;
+
+
+    &__icon {
+      border-radius: $br-2;
+      text-align: center;
+      height: 40px;
+      width: 40px;
+      @include btn-back;
+    }
+
+    &__title {
+      margin: -2px 0 0 14px;
+      font-size: $fs-4;
+      font-weight: 600;
+    }
+  }
+
+  .sidebar__items {
+    margin: 20px 0 45px 0;
+
+    .btn {
+      margin: 20px 0 45px 0;
+    }
+  }
+
+  .sidebar__lable {
+    padding-left: 15px;
+
+    &__first {
+      color: $grey-900;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      &__tilte {
+        font-size: $fs-3;
+        color: $grey-900;
+        font-weight: $fw-1;
+        margin-right: auto;
+      }
+
+      &__icon {
+        @include btn__bg--light;
+        padding: 3px;
+      }
+
+      &__more {
+        @include btn__default;
+        margin-left: 5px;
+      }
+
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+    }
+  }
+}
+
+.mail-list {
+  width: 360px;
+  margin: 0 20px 0 15px;
+  border-radius: 20px;
+  background-color: #F4F6F8;
+
+  .mail-list__search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: thin solid #dddee1;
+
+    .search {
+      height: 40px;
+      width: 100%;
+      border-radius: 12px;
+      border: none;
+      background-color: #E4E8EE;
+      font-family: 'Sofia Pro Light';
+      padding: 0 12px;
+      outline: none;
+    }
+
+    .material-icons {
+      position: absolute;
+      right: 25px;
+      color: #BEC4CD;
+    }
+  }
+}
+
+
+
+
+
+
+  .mail-details__header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    border-bottom: thin #dddee1 solid;
+
+    .tag {
+      @include tag-sm;
+
+      .material-icons {
+        font-size: $fs-1;
+        font-weight: $fw-1;
+        color: $brown-900;
+        margin-left: 5px;
+      }
+    }
+
+    .mail-details__icon {
+      margin-left: auto;
+
+      .material-icons {
+        @include btn__default;
+        font-size: $fs-3;
+        margin-left: $mg-2;
+      }
+    }
+  }
+
+  .mail-detail__content {
+    .mail-details__content__title {
+      &__date {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #9DA5B0;
+        font-family: "Sofia Pro Medium";
+      }
+
+      &__topic {
+        margin: 16px 0 38px;
+        font-size: $fs-8;
+      }
+
+
+    }
+    .mail-details__received {
+      display: flex;
+      align-items: center;
+      font-size: $fs-0;
+
+      &__sender-avatar {
+        @include box-avata-sm;
+
+        .material-icons {
+          color: $grey-700;
+          align-items: center;
+        }
+      }
+
+      &__content {
+        display: flex;
+        margin-left: 15px;
+
+        &__name {
+          font-weight: 600;
+        }
+
+        &__text {
+          width: 280px;
+          padding-left: 16px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          color: $grey-800;
+          font-family: "Sofia Pro Medium";
+        }
+      }
+
+      &__time {
+        margin-left: auto;
+        color: $grey-800;
+        font-family: "Sofia Pro Medium";
+      }
+
+      &__sent {
+        padding: $pd-2 0;
+        margin: 5px 0;
+        border-bottom: thin #dddee1 solid;
+        border-top: thin #dddee1 solid;
+
+      }
+    }
+
+    .mail-details__chat {
+      color: #384055;
+      font-size: $fs-2;
+      margin-top: 43px;
+      word-wrap: break-word;
+
+      &__name {
+        margin: $mg-3 0;
+
+        &__link {
+          color: $jade-400;
+        }
+      }
+    }
+    .textarea {
+      resize: none;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      border: 1px solid $grey-300;
+      padding: 2%;
+      height: 8vw;
+      font-family: "Sofia Pro Light";
+      outline: none !important;
+    
+    }
+    
+    .utilities {
+      display: flex;
+      align-items: center;
+      height: 44px;
+      margin-top: -8px;
+      color: $grey-500;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      border: 1px solid $grey-300;
+    
+      &__left {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 30%;
+        padding: $pd-1;
+        border-right: thin solid $grey-300;
+    
+        .material-icons {
+          @include btn__default;
+          font-size: $fs-4;
+    
+          &--jade,
+          &:hover {
+            color: $jade-900;
+          }
+    
+        }
+    
+      }
+    
+      &__right {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    
+        .material-icons {
+          @include btn__default;
+          font-size: $fs-4;
+    
+          &:hover {
+            color: $jade-900;
+          }
+        }
+      }
+    }
+
+  }
+  .mail-details__footer{
+    display: flex;
+    margin-top: $mt-6;
+    align-items: center;
+    color: $grey-700;
+    &__left{
+      margin-right: auto;
+      .material-icons{
+      @include btn__default;
+      margin-right: $mg-2;
+      }
+    }
+    &__center{
+      .material-icons{
+        @include btn__default;
+        margin-right: $mg-2;
+        }
+    }
+    &__right{
+      .btn__sent{
+        @include btn__jade;
+        width: 88px;
+        padding: $pd-1;
+        .material-icons{
+          margin-left: 10px;
+        }
+      }
+    }
+  }

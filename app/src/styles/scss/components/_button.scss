@@ -1,0 +1,13 @@
+.btn{
+  @include btn__jade;
+  width: 100%;
+  padding: 12px;
+  font-size: $fs-1;
+  border-radius: $br-2;
+
+  .material-icons{
+    font-size: $fs-3;
+    margin-right: 18px;
+  }
+  
+}

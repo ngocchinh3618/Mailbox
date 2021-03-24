@@ -5,528 +5,449 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <link rel="stylesheet" href="http://db.onlinewebfonts.com/c/b3be20d887cc494d12ade85591c774a8?family=Sofia+Pro+Light">
+
+  <link href="//db.onlinewebfonts.com/c/052579a2b150394c09586dcc982f9548?family=Sofia+Pro+Medium" rel="stylesheet"
+    type="text/css" />
+
+
+  <link href="//db.onlinewebfonts.com/c/322abfb4839ffa8be0ee2126d7f33880?family=Sofia+Pro+Bold" rel="stylesheet"
+    type="text/css" />
 
   <title>mailBox</title>
 </head>
 
 <body>
-  <section class="container">
-    <section class="side">
-      <div class="logo">
-        <div class="triangle-up"></div>
-        <div class="triangle-down"></div>
-      </div>
-      <div class="icon-nav">
-        <ul>
-          <li>
-            <div class="side-icon-container">
-              <span class="material-icons">
-                av_timer
-              </span>
-            </div>
-          </li>
+  <section class="page">
+    <section class="navbar">
+      <section class="navbar__header">
+        <div class="logo-up"></div>
+        <div class="logo-down"></div>
+      </section>
+      <section class="navbar__item">
+        <span class="material-icons">
+          av_timer
+        </span>
+        <span class="material-icons">
+          assignment_turned_in
+        </span>
+        <span class="material-icons">
+          visibility
+        </span>
+        <span class="material-icons material-icons__jade">
+          people_alt
+        </span>
+        <span class="material-icons">
+          leaderboard
+        </span>
+        <span class="material-icons">
+          videocam
+        </span>
+      </section>
 
-          <li>
-            <div class="side-icon-container">
-              <span class="material-icons">
-                assignment_turned_in
-              </span>
-            </div>
-          </li>
-          <li>
-            <div class="side-icon-container">
-              <span class="material-icons">
-                visibility
-              </span>
-            </div>
-          </li>
-          <li class="icon-side-act">
-            <div class="side-icon-container">
-              <span class="material-icons">
-                people_alt
-              </span>
-            </div>
-          </li>
-          <li>
-            <div class="side-icon-container">
-              <svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><rect fill="none" height="24" width="24"/><g><path class="side-icon" fill="#9da5b0" d="M6.5,21H3c-0.55,0-1-0.45-1-1V10c0-0.55,0.45-1,1-1h3.5c0.55,0,1,0.45,1,1v10C7.5,20.55,7.05,21,6.5,21z" /> <path class="side-icon" fill="
-                #bec4cd" d="M13.75,3h-3.5 c-0.55,0-1,0.45-1,1v16c0,0.55,0.45,1,1,1h3.5c0.55,0,1-0.45,1-1V4C14.75,3.45,14.3,3,13.75,3z"/> <path class="side-icon" fill="#9da5b0" d="M21,11h-3.5c-0.55,0-1,0.45-1,1v8 c0,0.55,0.45,1,1,1H21c0.55,0,1-0.45,1-1v-8C22,11.45,21.55,11,21,11z"/></g></svg>
-            </div>
-          </li>
-          <li>
-            <div class="side-icon-container ">
-              <span class="material-icons icon-diveo">
-                videocam
-              </span>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="account">
-        <img src="../img/3.png" alt="account">
-      </div>
+      <section class="navbar__footer">
+        <img class="avata" src="../img/3.png" alt="account">
+      </section>
     </section>
-
     <section class="content">
-      <section class="sub-side">
 
-        <div class="content-mailbox">
-          <div class="chevron-left">
+      <section class="sidebar">
+
+        <section class="sidebar__header">
+          <button class="material-icons sidebar__header__icon">
+            chevron_left
+          </button>
+          <div class="sidebar__header__title">
+            MailBox
+          </div>
+        </section>
+
+        <section class="sidebar__items">
+          <button class="btn">
             <span class="material-icons">
-              chevron_left
-              </span>
-          </div>
-          <div class="txt-mail">
-            <p>MailBox</p>
-          </div>
-        </div>
-        <!-- <hr class="hr-box-msg"> -->
-        <div class="mailbox-991">
-
-          <div class="box">
-            <p>
-              <svg class="mail-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                <path d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-              </svg>
-            </p>
-            <p>New message</p>
-          </div>
-
-          <div class="inbox inbox-first">
-            <div class="item-box1">
-              <span class="material-icons icon-save">
-                save_alt
-              </span>
-            </div>
-            <div class="item-box2">
-              <p>Inbox</p>
-            </div>
-            <div class="item-box3">
-              <p>1</p>
-            </div>
-          </div>
-
-          <div class="inbox">
-            <div class="item-box1">
-              <span class="material-icons">
-                near_me
-              </span>
-            </div>
-            <div class="item-box2">Sent Emails</div>
-          </div>
-
-          <div class="inbox">
-            <div class="item-box1">
-              <span class="material-icons">
-                star
-              </span>
-            </div>
-            <div class="item-box2">Favourite</div>
-          </div>
-
-          <div class="inbox">
-            <div class="item-box1">
-              <svg class="list-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                <path class="top-icon"
-                  d=" M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02  0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" />
-                <path d="M0 0h24v24H0z" fill="none" />
-                <path class="bottom-icon"
-                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 " />
-              </svg>
-            </div>
-            <div class="item-box2">Draft</div>
-          </div>
-
-          <div class="inbox">
-            <div class="item-box1">
-              <svg class="list-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                <path class="top-bin" d="M0 0h24v24H0z" fill="none" />
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path class="top-icon"
-                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z" />
-                <path class="bottom-icon" class="content-bin"
-                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 " />
-              </svg>
-            </div>
-            <div class="item-box2">Deleted</div>
-          </div>
-
-          <div class="inbox">
-            <div class="item-box1">
-              <span class="material-icons">
-                keyboard_arrow_down
-              </span>
-            </div>
-            <div class="item-box2">More</div>
-          </div>
-        </div>
-
-        <div class="label-991">
-          <div class="labels">
-            <div class="item-label1">Labels</div>
-            <div class="item-label2">
-              <span class="material-icons">
-                add
-              </span>
-            </div>
-            <div class="item-label3">
-              <span class="material-icons">
-                more_vert
-              </span>
-            </div>
-          </div>
-
-          <div class="tag-labels">
-            <div class="label-rectangle"></div>
-            <div class="box-label2">Work</div>
-          </div>
-
-
-          <div class="tag-labels">
-            <div class="label-rectangle1"></div>
-            <div class="box-label2">Promising offers</div>
-          </div>
-
-          <div class="tag-labels">
-            <div class="label-rectangle2"></div>
-            <div class="box-label2">Work in progress</div>
-          </div>
-
-          <div class="tag-labels">
-            <div class="label-rectangle3"></div>
-            <div class="box-label2">In acceptance</div>
-          </div>
-
-          <div class="tag-labels">
-            <div class="label-rectangle4"></div>
-            <div class="box-label2">Read later</div>
-          </div>
-
-        </div>
-
-
-      </section>
-      <section class="contact">
-        <div class="content-contact">
-
-          <div class="inputContainer">
-
-            <input type="text" placeholder="Search" />
-            <i class="fas fa-search"></i>
-          </div>
-          <!-- <hr class="hr-box-msg"> -->
-          <div class="list-mess">
-            <div class="list-msg list-active">
-              <div class="msg-img">
-                <div class="box-img">
-                  <img src="../img/9.jpg" alt="">
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Jessica Koel</p>
-                <p>Hey Jonald, do you remember ...</p>
-              </div>
-              <div class="msg-time">
-                <p>11:26</p>
-                <div class="item-box3">
-                  <p>1</p>
-                </div>
-              </div>
-            </div>
-            <div class="list-msg ">
-              <div class="msg-img">
-                <div class="box-img">
-                  <img src="../img/6.jpg" alt="">
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Kamil Boerger</p>
-                <p>I Will sent the documents as soon...</p>
-              </div>
-              <div class="msg-time">
-                <p>10:05</p>
-                <p><span class="material-icons">
-                    star
-                  </span></i></p>
-              </div>
-            </div>
-            <div class="list-msg">
-              <div class="msg-img">
-                <div class="box-img">
-                  <p class="ts">TS</p>
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Tamara Shevchenko</p>
-                <p>are you going to a business...</p>
-              </div>
-              <div class="msg-time">
-                <p>15:09</p>
-                <p><span class="material-icons">
-                    star
-                  </span></i></p>
-              </div>
-            </div>
-            <div class="list-msg">
-              <div class="msg-img">
-                <div class="box-img">
-                  <img src="../img/7.jpg" alt="">
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Sam Nelson</p>
-                <p>I suggest to start, I have...</p>
-              </div>
-              <div class="msg-time">
-                <p>14:09</p>
-                <p><span class="material-icons">
-                    star
-                  </span></i></p>
-              </div>
-            </div>
-            <div class="list-msg">
-              <div class="msg-img">
-                <div class="box-img">
-                  <img src="../img/8.jpg" alt="">
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Jonas Berger</p>
-                <p>We need to start a new research...</p>
-              </div>
-              <div class="msg-time">
-                <p>14:09</p>
-                <p><span class="material-icons">
-                    star
-                  </span></i></p>
-              </div>
-            </div>
-            <div class="list-msg">
-              <div class="msg-img">
-                <div class="box-img">
-                  <p class="kk">KK</p>
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Kristian Kurzawa</p>
-                <p>maybe yes...</p>
-              </div>
-              <div class="msg-time">
-                <p>14:09</p>
-                <p><span class="material-icons">
-                    star
-                  </span></i></p>
-              </div>
-            </div>
-            <div class="list-msg">
-              <div class="msg-img">
-                <div class="box-img">
-                  <img src="../img/9.jpg" alt="">
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Caroline Nixon</p>
-                <p>I would like to introduce you to...</p>
-              </div>
-              <div class="msg-time">
-                <p>13:09</p>
-                <p><span class="material-icons">
-                    star
-                  </span></i></p>
-              </div>
-            </div>
-            <div class="list-msg">
-              <div class="msg-img">
-                <div class="box-img">
-                  <p class="pk">PK</p>
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Patrick Kluiert</p>
-                <p>Integration events at the stad...</p>
-              </div>
-              <div class="msg-time">
-                <p>13:09</p>
-                <p>
-                  <span class="material-icons star-icon-green">
-                    star
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div class="list-msg">
-              <div class="msg-img">
-                <div class="box-img">
-                  <img src="../img/6.jpg" alt="">
-                </div>
-              </div>
-              <div class="msg-content">
-                <p>Lieke Martens</p>
-                <p>I suggest to start, I have...</p>
-              </div>
-              <div class="msg-time">
-                <p>11:26</p>
-                <p><span class="material-icons">
-                    star
-                  </span></i></p>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-
-        </div>
-      </section>
-      <section class="main-content">
-        <div class="border-content">
-          <div class="label-container">
-            <div class="label-content">Promising offers
-              <span class="material-icons">
-                close
-              </span>
-            </div>
-          </div>
-
-          <div class="icon-content">
-            <span class="material-icons">
-              star_rate
+              local_post_office
             </span>
+            New message
+          </button>
 
-            <span class="material-icons">
-              print
-            </span>
-            <span class="material-icons">
+          <div class="sidebar__item">
+            <button class="material-icons">
+              save_alt
+            </button>
+            Inbox
+            <button class="sidebar__item__number">1</button>
+          </div>
+          <div class="sidebar__item">
+            <button class="material-icons">
+              near_me
+            </button>
+            Sent Emails
+          </div>
+          <div class="sidebar__item">
+            <button class="material-icons">
+              star
+            </button>
+            Favourite
+          </div>
+
+          <div class="sidebar__item">
+            <button class="material-icons">
+              edit
+            </button>
+            Draft
+          </div>
+
+          <div class="sidebar__item">
+            <button class="material-icons">
               delete
-            </span>
-            <span class="material-icons">
-              more_vert
-            </span>
+            </button>
+            Deleted
           </div>
-        </div>
-        <!-- <hr class="hr-box-msg"> -->
-        <div class="title-msg">
-          <p>Today, 16th September 2020, 11:26</p>
-          <h2>Meeting With new investors</h2>
+
+          <div class="sidebar__item">
+            <button class="material-icons sidebar__item__btn  ">
+              keyboard_arrow_down
+            </button>
+            More
+          </div>
+
+
+        </section>
+
+
+
+
+        <section class="sidebar__lable">
+
+          <div class="sidebar__lable__first">
+            <span class="sidebar__lable__first__tilte">Labels</span>
+            <button class=" sidebar__lable__first__icon material-icons">
+              add
+            </button>
+            <button class="material-icons sidebar__lable__first__more">
+              more_vert
+            </button>
+          </div>
+          <div class="sidebar__lable__item">
+            <div class="tag"></div>
+            <p class="sidebar__lable__item__title">Work</p>
+          </div>
+          <div class="sidebar__lable__item">
+            <div class="tag1"></div>
+            <p class="sidebar__lable__item__title">Promising offers</p>
+          </div>
+          <div class="sidebar__lable__item">
+            <div class="tag2"></div>
+            <p class="sidebar__lable__item__title">Work in progress</p>
+          </div>
+          <div class="sidebar__lable__item">
+            <div class="tag3"></div>
+            <p class="sidebar__lable__item__title">In acceptance</p>
+          </div>
+          <div class="sidebar__lable__item">
+            <div class="tag4"></div>
+            <p class="sidebar__lable__item__title">Read later</p>
+          </div>
+
+
+        </section>
+      </section>
+
+      <section class="mail-list">
+
+
+
+        <div class="mail-list__search">
+          <input class="search" type="text" placeholder="Search" />
+          <span class="material-icons">
+            search
+          </span>
         </div>
 
-        <div class="box-msg ">
-          <div class="border-msg">
-            <div class="box-msg-img">
+        <div class="mail-list__item mail-list__item--first">
+          <div class="mail-list__item__sender-avatar">
+            <img class="avatar" src="../img/9.jpg" alt="">
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Jessica Koel</p>
+            <p class="mail-list__item__content__text">Hey Jonald, do you remember....</p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>11:26</p>
+            <p class="mail-list__item__note__number">1</p>
+          </div>
+        </div>
+        <div class="mail-list__item ">
+          <div class="mail-list__item__sender-avatar">
+            <img class="avatar" src="../img/7.jpg" alt="">
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Kamil Boerger</p>
+            <p class="mail-list__item__content__text">I Will sent the documents as soon...</p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>10:05</p>
+            <button class="material-icons mail-list__item__note--star">
+              star
+            </button>
+          </div>
+        </div>
+        <div class="mail-list__item ">
+          <div class="mail-list__item__sender-avatar mail-list__item__sender-avatar--jade">
+            <p class="avatar__name">TS</p>
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Tamara Shevchenko</p>
+            <p class="mail-list__item__content__text">are you going to a business...</p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>15:09</p>
+            <button class="material-icons mail-list__item__note--star">
+              star
+            </button>
+          </div>
+        </div>
+        <div class="mail-list__item ">
+          <div class="mail-list__item__sender-avatar">
+            <img class="avatar" src="../img/2.png" alt="">
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Sam Nelson</p>
+            <p class="mail-list__item__content__text">I suggest to start, I have...</p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>14:09</p>
+            <button class="material-icons mail-list__item__note--star">
+              star
+            </button>
+          </div>
+        </div>
+        <div class="mail-list__item ">
+          <div class="mail-list__item__sender-avatar">
+            <img class="avatar" src="../img/4.jpg" alt="">
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Jonas Berger</p>
+            <p class="mail-list__item__content__text">We need to start a new research...</p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>10:05</p>
+            <button class="material-icons mail-list__item__note--star">
+              star
+            </button>
+          </div>
+        </div>
+        <div class="mail-list__item ">
+          <div class="mail-list__item__sender-avatar mail-list__item__sender-avatar--brown">
+            <p class="avatar__name">KK</p>
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Kristian Kurzawa</p>
+            <p class="mail-list__item__content__text">Maybe yes...</p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>10:05</p>
+            <button class="material-icons mail-list__item__note--star">
+              star
+            </button>
+          </div>
+        </div>
+        <div class="mail-list__item ">
+          <div class="mail-list__item__sender-avatar">
+            <img class="avatar" src="../img/6.jpg" alt="">
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Caroline Nixon</p>
+            <p class="mail-list__item__content__text">I would like to introduce you to...
+            </p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>13:09</p>
+            <button class="material-icons mail-list__item__note--star">
+              star
+            </button>
+          </div>
+        </div>
+        <div class="mail-list__item ">
+          <div class="mail-list__item__sender-avatar mail-list__item__sender-avatar--orange">
+            <p class="avatar__name ">PK</p>
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Patrick Kluiert</p>
+            <p class="mail-list__item__content__text">Integration events at the stad...</p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>10:05</p>
+            <button class="material-icons mail-list__item__note--star mail-list__item__note--star--jade">
+              star
+            </button>
+          </div>
+        </div>
+        <div class="mail-list__item ">
+          <div class="mail-list__item__sender-avatar">
+            <img class="avatar" src="../img/8.jpg" alt="">
+          </div>
+          <div class="mail-list__item__content">
+            <p class="mail-list__item__content__name">Lieke Marten</p>
+            <p class="mail-list__item__content__text">I suggest to start, I have...</p>
+          </div>
+          <div class="mail-list__item__note">
+            <p>10:05</p>
+            <button class="material-icons mail-list__item__note--star">
+              star
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="mail-detail">
+        <section class="mail-details__header">
+          <div class="tag">Promising offers <span class="material-icons mail-details__header__lable__icon">
+              close
+            </span>
+          </div>
+          <div class="mail-details__icon">
+            <button class="material-icons">
+              star_rate
+            </button>
+
+            <button class="material-icons">
+              print
+            </button>
+            <button class="material-icons">
+              delete
+            </button>
+            <button class="material-icons">
+              more_vert
+            </button>
+          </div>
+        </section>
+        <section class="mail-detail__content">
+          <div class="mail-details__content__title">
+            <p class="mail-details__content__title__date">Today, 16th September 2020, 11:26</p>
+            <h2 class="mail-details__content__title__topic">Meeting With new investors</h2>
+          </div>
+          <div class="mail-details__received">
+            <div class="mail-details__received__sender-avatar">
               <img src="../img/9.jpg" alt="">
             </div>
+            <div class="mail-details__received__content">
+              <p class="mail-details__received__content__name">Jessica Koel</p>
+              <p class="mail-details__received__content__text">- Hi, I have a new meeting opportunity have a new meeting
+                opportunity......</p>
+            </div>
+            <div class="mail-details__received__time">
+              <p>14.09.20200 09:25</p>
+            </div>
           </div>
-          <div class="box-msg-content">
-            <p>Jessica Koel</p>
-            <p>- Hi, I have a new meeting opportunity....</p>
-          </div>
-          <div class="box-msg-time">
-            <p>14.09.20200 09:25</p>
-          </div>
-        </div>
-        <!-- <hr class="hr-box-msg"> -->
-        <div class="border-box box-msg">
-          <div class="border-msg">
-            <div class="box-msg-img">
+          <div class="mail-details__received mail-details__received__sent">
+            <div class="mail-details__received__sender-avatar">
               <span class="material-icons">
                 reply
               </span>
             </div>
+            <div class="mail-details__received__content">
+              <p class="mail-details__received__content__name">You</p>
+              <p class="mail-details__received__content__text">- Hi, thanks fo the info, of counrse we need to...</p>
+            </div>
+            <div class="mail-details__received__time">
+              <p>14.09.2020 10:11</p>
+            </div>
           </div>
-          <div class="box-msg-content">
-            <p>You</p>
-            <p>- Hi, thanks fo the info, of counrse we need to...</p>
-          </div>
-          <div class="box-msg-time">
-            <p>14.09.2020 10:11</p>
-          </div>
-        </div>
-        <!-- <hr class="hr-box-msg"> -->
-        <div class="box-msg">
-          <div class="border-msg">
-            <div class="box-msg-img">
+          <div class="mail-details__received">
+            <div class="mail-details__received__sender-avatar">
               <img src="../img/9.jpg" alt="">
             </div>
-          </div>
-          <div class="box-msg-content box-msg-border">
-            <p>Jessica Koel</p>
-
-          </div>
-          <div class="box-msg-time">
-            <p>Today, 16.09.20200, 11:26</p>
-          </div>
-        </div>
-
-
-        <div class="txt-msg-content ">
-          <p>Hey Jontray,</p>
-          <p> Do you remember about tomorrow's meeting with new investors? <br>Here you have more information about
-            the conference at which we will be together with the client:<a>https://conference.com/agenda/start</a></p>
-          <p>Regards,<br>Jessica</p>
-
-        </div>
-
-        <div class="mess-container">
-          <textarea name="" id="" rows="5" placeholder="Write you message..."></textarea>
-          <div class="icon-mess">
-            <div class="icon-group1">
-              <i class="fas fa-bold"></i>
-              <i class="fas fa-italic"></i>
-              <i class="fas fa-underline"></i>
-              <i class="fas fa-fill-drip"></i>
+            <div class="mail-details__received__content">
+              <p class="mail-details__received__content__name">Jessica Koel</p>
+              <p></p>
             </div>
-            <div class="icon-group2">
-              <i class="fas fa-list-ol"></i>
-
-              <i class="fas fa-list"></i>
-              <i class="fas fa-align-left"></i>
-              <i class="fas fa-align-center"></i>
-              <i class="fas fa-align-right"></i>
-              <i class="fas fa-align-justify"></i>
+            <div class="mail-details__received__time">
+              <p>Today, 16.09.20200, 11:26</p>
             </div>
           </div>
-        </div>
-        <div class="Utilities">
-          <div class="icon-file">
-            <span class="material-icons">
+
+          <div class="mail-details__chat">
+            <p class="mail-details__chat__name">Hey Jontray,</p>
+            <p> Do you remember about tomorrow's meeting with new investors? <br>Here you have more information about
+              the conference at which we will be together <br> with the client:<a
+                class="mail-details__chat__name__link">https://conference.com/agenda/start</a></p>
+            <p class="mail-details__chat__name">Regards,<br>Jessica</p>
+
+          </div>
+
+          <div class="mail-details__reply">
+            <textarea class="textarea" name="" id="" rows="5" placeholder="Write you message..."></textarea>
+            <div class="utilities">
+              <div class="utilities__left">
+                <button class="material-icons material-icons--jade">
+                  format_bold
+                </button>
+                <button class="material-icons ">
+                  format_italic
+                </button>
+                <button class="material-icons ">
+                  format_underlined
+                </button>
+                <button class="material-icons ">
+                  format_color_fill
+                </button>
+              </div>
+
+              <div class="utilities__right">
+                <button class="material-icons">
+                  format_list_numbered
+                </button>
+                <button class="material-icons">
+                  format_list_bulleted
+                </button>
+                <button class="material-icons">
+                  format_align_left
+                </button>
+                <button class="material-icons">
+                  format_align_center
+                </button>
+                <button class="material-icons">
+                  format_align_right
+                </button>
+                <button class="material-icons">
+                  format_align_justify
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mail-details__footer">
+          <div class="mail-details__footer__left">
+            <button class="material-icons">
               attach_file
-            </span>
-            <span class="material-icons">
+            </button>
+            <button class="material-icons">
               satellite
-            </span>
+            </button>
           </div>
-          <div class="icon-delete">
-            <span class="material-icons">
+          <div class="mail-details__footer__center">
+            <button class="material-icons">
               delete
-            </span>
-            <span class="material-icons">
+            </button>
+            <button class="material-icons">
               more_vert
-            </span>
-            
+            </button>
+
           </div>
-          <div class="icon-sent">
-            <button>
+          <div class="mail-details__footer__right">
+            <button class="btn__sent">
               <p>Send</p>
               <span class="material-icons">
                 near_me
               </span>
             </button>
           </div>
-
-        </div>
+        </section>
       </section>
-
     </section>
   </section>
 </body>
 
 </html>
-
-
-
